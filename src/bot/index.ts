@@ -6,9 +6,12 @@ import { SendAlert, SendText } from '../discord/utils/notifier';
 import { loader as autoEat } from 'mineflayer-auto-eat';
 import { InvCleaner, isInvFull } from './utils/inv';
 import { Vec3 } from 'vec3';
+import { autoFishModule } from './utils/autoFish';
 
 export let isReady = false;
 export let bot: Bot;
+
+export const autoFisher = new autoFishModule(bot!);
 
 export function mcbot(shouldInit: boolean = false) {
   const waitForTeleport = () => {
