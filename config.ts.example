@@ -1,0 +1,19 @@
+export const config = {
+  email: 'example@invalid.tld',
+  master: {
+    mcid: 'ruka64',
+    discorduId: '',
+  },
+  mc: {
+    sword_name: "diamond_sword",
+    autoFightDelay: 4000,
+    shouldInit: false,
+    whitelist: ['ruka64'],
+  },
+  discord: {
+    token: '',
+    guild: '',
+    channel: '',
+    whitelistedIds: [''],
+  },
+};
