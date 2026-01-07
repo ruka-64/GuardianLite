@@ -19,7 +19,7 @@ export function mcbot(shouldInit: boolean = false) {
   //@ts-ignore
   bot = createBot({
     host: '127.0.0.1',
-    port: 25568,
+    port: 25569,
     auth: 'offline',
     version: '1.21.1',
     physicsEnabled: true,
