@@ -5,9 +5,6 @@ export const config = {
     discorduId: '',
   },
   mc: {
-    sword_name: "diamond_sword",
-    autoFightDelay: 4000,
-    shouldInit: false,
     whitelist: ['ruka64'],
   },
   discord: {
