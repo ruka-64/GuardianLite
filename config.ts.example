@@ -5,6 +5,7 @@ export const config = {
     discorduId: '',
   },
   mc: {
+    shoultInit: true,
     whitelist: ['ruka64'],
   },
   discord: {
